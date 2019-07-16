@@ -111,7 +111,7 @@ class MoreSettingsPanel extends React.Component {
 						  	onChange={this.meowAfterMeowChange}
 						  	/>
 						  <span className="checkmark"></span>
-						  Cat after cat
+						  Mole after mole
 						</label>
 
 						<hr />
@@ -125,7 +125,7 @@ class MoreSettingsPanel extends React.Component {
 							step={this.props.controlSettings.gameDurationControl.step} 
 							onChange={this.gameDurationChange} />
 						<hr />
-						<label htmlFor="min-meow-time">Min display cat time</label>
+						<label htmlFor="min-meow-time">Min display mole time</label>
 						<input 
 							type="number" 
 							id="min-meow-time"
@@ -134,7 +134,7 @@ class MoreSettingsPanel extends React.Component {
 							 step={this.props.controlSettings.minDisplayCatTimeControl.step} 
 							 onChange={this.meowMinTimeChange} />
 						<hr />
-						<label htmlFor="max-meow-time">Max display cat time</label>
+						<label htmlFor="max-meow-time">Max display mole time</label>
 						<input 
 							type="number" 
 							id="max-meow-time" 
@@ -143,7 +143,7 @@ class MoreSettingsPanel extends React.Component {
 							step={this.props.controlSettings.maxDisplayCatTimeControl.step} 
 							onChange={this.meowMaxTimeChange} />
 						<hr />
-						<label htmlFor="meow-after-meow-time">Cat after cat pause time</label>
+						<label htmlFor="meow-after-meow-time">Mole after mole pause time</label>
 						<input 
 							type="number" 
 							id="meow-after-meow-time" 

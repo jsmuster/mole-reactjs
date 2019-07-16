@@ -12,10 +12,10 @@ const ControlPanel = props => {
 			<div className="control-panel">
 				<h1>Whack a Mole!</h1>
 				<span className="info-game">
-					Hi!. Welcome to Mole game! <br />
-					For playing press "START". Then, click to top cats' head for get a score. <br />
-					For end game press "FINISH". <br /> 
-					For reset score - press 'RESET';
+					Hi!. Welcome to Whack a Mole game! <br/>
+					To play press "START". Then, click on a mole's head. <br/>
+					To end game press "FINISH". <br/>
+					To reset score - press 'RESET';
 				</span>
 
 				<div className="control-panel-items">
